@@ -4,7 +4,7 @@
 # ROLLBACK - use for rollback every begin transaction (ignore scope)  
 # COMMIT - use to commit transaction 
 # **Both ROLLBACK and COMMIT**
-# (need to have at least one transaction and be aware nested transaction that call rollback will $ # cause error!)
+# (need to have at least one transaction and be aware nested transaction that call rollback will cause error!)
 # Example:
 # begin 
 #   begin try
